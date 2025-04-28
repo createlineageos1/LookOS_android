@@ -4,11 +4,9 @@ LineageOS
 Getting started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
+repo init -u https://github.com/createlineageos1/LookOS_android -b lineage-22.2 --git-lfs
 ```
 Then to sync up:
 ```
@@ -29,8 +27,7 @@ To view the status of your and others' patches, visit [LineageOS Gerrit Code Rev
 Buildbot
 --------
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
+All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buil>
 You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
 
 Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
